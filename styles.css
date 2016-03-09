@@ -1,0 +1,63 @@
+		body {
+
+		color:grey;
+		}
+
+		nav {
+		margin-right:250px
+
+		}
+
+		h1 {
+		letter-spacing:5px;
+
+		}
+
+		form {
+			background:url(images/people-cycling.jpg);
+			height:500px;
+			background-repeat:no-repeat;
+			padding-top:120px;
+			padding-left:500px;
+			color:white;
+			font-size: 30px;
+
+		}
+
+		input {
+			padding:10px 40px 10px 40px;
+			border-radius: 4px;
+			margin-bottom: 5px;
+			display: block;			
+		}
+
+		button{
+		padding: 10px;
+		border-radius: 4px;
+		}
+
+
+		input[type="checkbox"] {
+    	display: inline-block;
+		}
+
+		.check-buttons{
+			background: rgba(255, 255, 255, 0.8);
+			color: #A0CAFB;
+		}
+
+		a{	
+		text-decoration:none;
+		margin-right: 40px;
+		color:white;
+		line-height: 2;
+	 }
+
+	 li {
+	display:inline-block;
+		}
+
+	p {
+		background: lightblue;
+	}
+
