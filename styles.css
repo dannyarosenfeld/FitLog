@@ -1,16 +1,60 @@
 		body {
+			background: #F5F8FA;
+			color:grey;
+			margin-left: auto;
+			margin-right: auto;
+		}
 
-		color:grey;
+		main {
+			padding:1.3em 4em 1.3em 4em;
+			border-radius: 7px;
+			background: white;
+			display:block;
+			width:80%;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		nav {
-		margin-right:250px
+			font-family: 'Raleway', sans-serif;
+		}
 
+		ul {
+			margin-left:3em;
+		}
+
+		li {
+			color:#A0CAFB;
+			z-index:20;			
+		}
+		
+		#interest{
+  			font-size: 1.4em;
+  		}
+
+		.lightblue {
+			background: #A0CAFB;
+		}
+
+		#ocean{
+			background: lightblue;
 		}
 
 		h1 {
-		letter-spacing:5px;
+			z-index:10;
+			padding:.1em 1em .1em 1em;
+			color:#66757F;
+			margin-left: 2.6em;
+			letter-spacing:5px;
+			font-family: helvetica;
+		}
 
+		h2 {
+			font-family: 'Raleway', sans-serif;
+		}
+
+		h3 {
+			font-family: 'Raleway', sans-serif;
 		}
 
 		form {
@@ -21,7 +65,7 @@
 			padding-left:500px;
 			color:white;
 			font-size: 30px;
-
+			font-family: 'Raleway', sans-serif;
 		}
 
 		input {
@@ -32,13 +76,12 @@
 		}
 
 		button{
-		padding: 10px;
-		border-radius: 4px;
+			padding: 10px;
+			border-radius: 4px;
 		}
 
-
 		input[type="checkbox"] {
-    	display: inline-block;
+    		display: inline-block;
 		}
 
 		.check-buttons{
@@ -47,17 +90,73 @@
 		}
 
 		a{	
-		text-decoration:none;
-		margin-right: 40px;
-		color:white;
-		line-height: 2;
-	 }
+			text-decoration:none;
+			margin-right: 40px;
+			color:white;
+			line-height: 2;
+	 	}
 
-	 li {
-	display:inline-block;
+	 	li {
+			display:inline-block;
 		}
 
-	p {
-		background: lightblue;
-	}
+		p {
+			border-radius: 10px;
+			background: #F5F8FA;
+			font-family: 'Raleway', sans-serif;
+		}
+
+		table {
+			width: 90%;
+		}
+
+		a:link {
+			color: grey;
+		}
+
+		a:visited {
+			color: #A0CAFB;
+		}
+		
+		a:hover {
+			color: blue;
+		}
+
+
+	/* media queries down here */
+
+	@media screen and (max-width: 500px) {
+  li {
+  	display:block;
+  }
+}
+
+	@media screen and (max-width: 900px) {
+  form {
+  	padding-left:0;
+  }
+  label {
+  	display:block;
+  	text-align: center;
+  }
+  input {
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  textarea {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  button {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  strong{
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+}
+
 
