@@ -1,126 +1,126 @@
-		body {
-			background: #F5F8FA;
-			color:grey;
-			margin-left: auto;
-			margin-right: auto;
-		}
+body {
+	background: #F5F8FA;
+	color:grey;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-		main {
-			padding:1.3em 4em 1.3em 4em;
-			border-radius: 7px;
-			background: white;
-			display:block;
-			width:80%;
-			margin-left: auto;
-			margin-right: auto;
-		}
+main {
+	padding:1.3em 4em 1.3em 4em;
+	border-radius: 7px;
+	background: white;
+	display:block;
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-		nav {
-			font-family: 'Raleway', sans-serif;
-		}
+nav {
+	font-family: 'Raleway', sans-serif;
+}
 
-		ul {
-			margin-left:3em;
-		}
+ul {
+	margin-left:3em;
+}
 
-		li {
-			color:#A0CAFB;
-			z-index:20;			
-		}
-		
-		#interest{
-  			font-size: 1.4em;
-  		}
+li {
+	color:#A0CAFB;
+	z-index:20;			
+}
 
-		.lightblue {
-			background: #A0CAFB;
-		}
+#interest{
+		font-size: 1.4em;
+	}
 
-		#ocean{
-			background: lightblue;
-		}
+.lightblue {
+	background: #A0CAFB;
+}
 
-		h1 {
-			z-index:10;
-			padding:.1em 1em .1em 1em;
-			color:#66757F;
-			margin-left: 2.6em;
-			letter-spacing:5px;
-			font-family: helvetica;
-		}
+#ocean{
+	background: lightblue;
+}
 
-		h2 {
-			font-family: 'Raleway', sans-serif;
-		}
+h1 {
+	z-index:10;
+	padding:.1em 1em .1em 1em;
+	color:#66757F;
+	margin-left: 2.6em;
+	letter-spacing:5px;
+	font-family: helvetica;
+}
 
-		h3 {
-			font-family: 'Raleway', sans-serif;
-		}
+h2 {
+	font-family: 'Raleway', sans-serif;
+}
 
-		form {
-			background:url(images/people-cycling.jpg);
-			height:500px;
-			background-repeat:no-repeat;
-			padding-top:120px;
-			padding-left:500px;
-			color:white;
-			font-size: 30px;
-			font-family: 'Raleway', sans-serif;
-		}
+h3 {
+	font-family: 'Raleway', sans-serif;
+}
 
-		input {
-			padding:10px 40px 10px 40px;
-			border-radius: 4px;
-			margin-bottom: 5px;
-			display: block;			
-		}
+form {
+	background:url(images/people-cycling.jpg);
+	height:500px;
+	background-repeat:no-repeat;
+	padding-top:120px;
+	padding-left:500px;
+	color:white;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+}
 
-		button{
-			padding: 10px;
-			border-radius: 4px;
-		}
+input {
+	padding:10px 40px 10px 40px;
+	border-radius: 4px;
+	margin-bottom: 5px;
+	display: block;			
+}
 
-		input[type="checkbox"] {
-    		display: inline-block;
-		}
+button{
+	padding: 10px;
+	border-radius: 4px;
+}
 
-		.check-buttons{
-			background: rgba(255, 255, 255, 0.8);
-			color: #A0CAFB;
-		}
+input[type="checkbox"] {
+	display: inline-block;
+}
 
-		a{	
-			text-decoration:none;
-			margin-right: 40px;
-			color:white;
-			line-height: 2;
-	 	}
+.check-buttons{
+	background: rgba(255, 255, 255, 0.8);
+	color: #A0CAFB;
+}
 
-	 	li {
-			display:inline-block;
-		}
+a{	
+	text-decoration:none;
+	margin-right: 40px;
+	color:white;
+	line-height: 2;
+	}
 
-		p {
-			border-radius: 10px;
-			background: #F5F8FA;
-			font-family: 'Raleway', sans-serif;
-		}
+	li {
+	display:inline-block;
+}
 
-		table {
-			width: 90%;
-		}
+p {
+	border-radius: 10px;
+	background: #F5F8FA;
+	font-family: 'Raleway', sans-serif;
+}
 
-		a:link {
-			color: grey;
-		}
+table {
+	width: 90%;
+}
 
-		a:visited {
-			color: #A0CAFB;
-		}
-		
-		a:hover {
-			color: blue;
-		}
+a:link {
+	color: grey;
+}
+
+a:visited {
+	color: #A0CAFB;
+}
+
+a:hover {
+	color: blue;
+}
 
 
 	/* media queries down here */
