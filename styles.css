@@ -17,10 +17,21 @@
 		}
 
 		nav {
-		
 		font-family: 'Raleway', sans-serif;
 		}
+
+		ul {
+			margin-left:3em;
+		}
+		li {
+			color:#A0CAFB;
+			z-index:20;
+			
+		}
 		
+		#interest{
+  			font-size: 1.4em;
+  		}
 		.lightblue {
 			background: #A0CAFB;
 		}
@@ -30,11 +41,12 @@
 		}
 
 		h1 {
+		z-index:10;
 		padding:.1em 1em .1em 1em;
 		color:#66757F;
 		margin-left: 2.6em;
 		letter-spacing:5px;
-		font-weight: bold;
+		font-family: helvetica;
 		}
 
 		h2 {
@@ -97,7 +109,56 @@
 	}
 
 	table {
-		width:90%;
-
-
+		width: 90%;
 	}
+
+	a:link {
+		color: grey;
+	}
+
+	a:visited {
+		color: #A0CAFB;
+	}
+	
+	a:hover {
+		color: blue;
+	}
+
+
+	/* media queries down here */
+
+	@media screen and (max-width: 500px) {
+  li {
+  	display:block;
+  }
+}
+
+	@media screen and (max-width: 900px) {
+  form {
+  	padding-left:0;
+  }
+  label {
+  	display:block;
+  	text-align: center;
+  }
+  input {
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  textarea {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  button {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  strong{
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+}
+
+

@@ -12,26 +12,25 @@
 <body>
 
 	<nav>
-		<div style="float:right">			
-			<li><a href="index.html">Home</a> </li>
-			<li><a href="about.html">About</a> </li>
-			<li><a href="signup-page.html">Sign Up</a></li>
-		</div>
-
 		<header>
 			<h1 style="background: #74B1E4">FitLog</h1>
 		</header>
+		<ul>			
+			<li><a href="index.html">Home</a> </li>
+			<li><a href="about.html">About</a> </li>
+			<li><a href="signup-page.html">Sign Up</a></li>
+		</ul>
 	</nav>
 
 	<main>
 	<h2>Simple Workout Log to organize your daily workout and plan future workouts </h2>
 	<form action="about.html">
 		<div class="check-buttons">
-			<label for="buttons">I am interested in</label>
+			<label id="interest" for="buttons">I am interested in</label>
 			<br/>
-			Weight Lifting <input type="checkbox" name="agree">
-			Cardio <input type="checkbox" name="agree">
-			TRX <input type="checkbox" name="agree">
+			<strong>Weight Lifting</strong> <input type="checkbox" name="agree">
+			<strong>Cardio</strong> <input type="checkbox" name="agree">
+			<strong>TRX</strong> <input type="checkbox" name="agree">
 		</div>
 
 		<div>
