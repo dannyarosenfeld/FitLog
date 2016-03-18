@@ -20,11 +20,19 @@
 		
 		font-family: 'Raleway', sans-serif;
 		}
+		
+		.lightblue {
+			background: #A0CAFB;
+		}
+
+		#ocean{
+			background: lightblue;
+		}
 
 		h1 {
-
+		padding:.1em 1em .1em 1em;
+		color:#66757F;
 		margin-left: 2.6em;
-		background: #A0CAFB;
 		letter-spacing:5px;
 		font-weight: bold;
 		}
