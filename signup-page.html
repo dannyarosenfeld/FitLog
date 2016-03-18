@@ -12,47 +12,46 @@
 <body>
 
 	<nav>
-
 		<div style="float:right">			
-				<li><a href="index.html">Home</a> </li>
-				<li><a href="about.html">About</a> </li>
-				<li><a href="signup-page.html">Sign Up</a></li>
+			<li><a href="index.html">Home</a> </li>
+			<li><a href="about.html">About</a> </li>
+			<li><a href="signup-page.html">Sign Up</a></li>
 		</div>
 
 		<header>
-			<h1 style="background:lightblue">FitLog</h1>
+			<h1 style="background: #74B1E4">FitLog</h1>
 		</header>
-
 	</nav>
 
+	<main>
 	<h2>Simple Workout Log to organize your daily workout and plan future workouts </h2>
-
 	<form action="about.html">
+		<div class="check-buttons">
+			<label for="buttons">I am interested in</label>
+			<br/>
+			Weight Lifting <input type="checkbox" name="agree">
+			Cardio <input type="checkbox" name="agree">
+			TRX <input type="checkbox" name="agree">
+		</div>
 
-	<div class="check-buttons">
-		<label for="buttons">I am interested in</label><br/>
-		Weight Lifting <input type="checkbox" name="agree">
-		Cardio <input type="checkbox" name="agree">
-		TRX <input type="checkbox" name="agree">
-	</div>
+		<div>
+			<label for="email">email</label>	
+			<input type="email" name="email">	
+		</div>
 
-	<div>
-		<label for="email">email</label>	
-		<input type="email" name="email">	
-	</div>
+		<div>
+			<label for="Password:">Password</label>
+			<input type="password" name="password">
+		</div>
 
-	<div>
-		<label for="Password:">Password</label>
-		<input type="password" name="password">
-	</div>
+		<div>
+			<textarea name="description" id="" cols="30" rows="6"> Describe yourself
+			</textarea>
+		</div>
 
-	<div>
-		<textarea name="description" id="" cols="30" rows="6"> Describe yourself
-		</textarea>
-	</div>
-
-<button type="submit">Sign up</button>
+		<button type="submit">Sign up</button>
 	</form>
 	<p>© copyright Vimo Labs Inc.</p>
+	</main>
 </body>
 </html>
