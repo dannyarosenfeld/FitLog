@@ -1,6 +1,12 @@
 		body {
 
 		color:grey;
+		font-family: 'Raleway', sans-serif;
+		}
+
+		main {
+			width:70%;
+			
 		}
 
 		nav {
@@ -61,3 +67,4 @@
 		background: lightblue;
 	}
 
+	
