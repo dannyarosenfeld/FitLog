@@ -1,1 +1,4 @@
-# dannyarosenfeld.github.io
+
+# FitLog
+Psuedo business website for fitness tracking app
+
