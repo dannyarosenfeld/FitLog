@@ -1,8 +1,8 @@
 		body {
-		background: #F5F8FA;
-		color:grey;
-		margin-left: auto;
-		margin-right: auto;
+			background: #F5F8FA;
+			color:grey;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		main {
@@ -13,25 +13,25 @@
 			width:80%;
 			margin-left: auto;
 			margin-right: auto;
-			
 		}
 
 		nav {
-		font-family: 'Raleway', sans-serif;
+			font-family: 'Raleway', sans-serif;
 		}
 
 		ul {
 			margin-left:3em;
 		}
+
 		li {
 			color:#A0CAFB;
-			z-index:20;
-			
+			z-index:20;			
 		}
 		
 		#interest{
   			font-size: 1.4em;
   		}
+
 		.lightblue {
 			background: #A0CAFB;
 		}
@@ -41,12 +41,12 @@
 		}
 
 		h1 {
-		z-index:10;
-		padding:.1em 1em .1em 1em;
-		color:#66757F;
-		margin-left: 2.6em;
-		letter-spacing:5px;
-		font-family: helvetica;
+			z-index:10;
+			padding:.1em 1em .1em 1em;
+			color:#66757F;
+			margin-left: 2.6em;
+			letter-spacing:5px;
+			font-family: helvetica;
 		}
 
 		h2 {
@@ -66,7 +66,6 @@
 			color:white;
 			font-size: 30px;
 			font-family: 'Raleway', sans-serif;
-
 		}
 
 		input {
@@ -77,13 +76,12 @@
 		}
 
 		button{
-		padding: 10px;
-		border-radius: 4px;
+			padding: 10px;
+			border-radius: 4px;
 		}
 
-
 		input[type="checkbox"] {
-    	display: inline-block;
+    		display: inline-block;
 		}
 
 		.check-buttons{
@@ -92,37 +90,37 @@
 		}
 
 		a{	
-		text-decoration:none;
-		margin-right: 40px;
-		color:white;
-		line-height: 2;
-	 }
+			text-decoration:none;
+			margin-right: 40px;
+			color:white;
+			line-height: 2;
+	 	}
 
-	 li {
-	display:inline-block;
+	 	li {
+			display:inline-block;
 		}
 
-	p {
-		border-radius: 10px;
-		background: #F5F8FA;
-		font-family: 'Raleway', sans-serif;
-	}
+		p {
+			border-radius: 10px;
+			background: #F5F8FA;
+			font-family: 'Raleway', sans-serif;
+		}
 
-	table {
-		width: 90%;
-	}
+		table {
+			width: 90%;
+		}
 
-	a:link {
-		color: grey;
-	}
+		a:link {
+			color: grey;
+		}
 
-	a:visited {
-		color: #A0CAFB;
-	}
-	
-	a:hover {
-		color: blue;
-	}
+		a:visited {
+			color: #A0CAFB;
+		}
+		
+		a:hover {
+			color: blue;
+		}
 
 
 	/* media queries down here */
